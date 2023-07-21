@@ -58,10 +58,10 @@ void loop() {
 
   // Temperature control
   if (currentTemperature < desiredTemperature) {
-    // Temperature is below desired, turn on the virtual heater.
+    // Temperature is below desired, turn on the heater.
     digitalWrite(relayPin, HIGH);
   } else {
-    // Temperature is at or above desired, turn off the virtual heater.
+    // Temperature is at or above desired, turn off the heater.
     digitalWrite(relayPin, LOW);
   }
 
