@@ -11,9 +11,6 @@ The Digital Thermostat is an Arduino-based project that simulates a thermostat, 
 5. [Hardware Setup](#hardware-setup)
 6. [Software Setup](#software-setup)
 7. [Building and Running the Simulation](#building-and-running-the-simulation)
-8. [Testing](#testing)
-9. [Contributing](#contributing)
-10. [License](#license)
 
 ## Introduction
 
@@ -107,17 +104,3 @@ To build and run the Digital Thermostat simulation, you will need the following:
 5. Use the "Up" and "Down" buttons to adjust the desired temperature. Press the "Confirm" button to finalize the new desired temperature.
 
 6. Observe how the virtual heating system (relay) turns ON or OFF based on the temperature control logic to maintain the temperature close to the desired setting.
-
-## Testing
-
-The Digital Thermostat project includes unit tests to verify the correctness of the temperature control algorithm and user interface functionality. To run the tests:
-
-1. Install the AUnit library for Arduino in the Arduino IDE (if not already installed).
-
-2. Upload the entire code, including the tests, to your Arduino board.
-
-3. Open the Serial Monitor in the Arduino IDE. The AUnit library will display the test results.
-
-## Contributing
-
-Contributions are welcome! If you find any issues or have ideas to improve the project, please feel free to submit a pull request or open an issue.
